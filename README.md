@@ -1,2 +1,16 @@
 # CS-305
-Projects from CS 305 (Software Security)
+Projects from CS-305 (Software Security)
+1. Briefly summarize your client, Artemis Financial, and their software requirements. Who was the client? What issue did they want you to address?
+> Artemis Financial is a consulting company that offers customized financial plans to their customers. The company has a web interface that allows customers to access accounts for savings, retirement, investment, and other financial plans. More recently, Artemis Financial requested the addition of a file verification step to their web application to ensure secure communications.
+2. What did you do very well when you found your client’s software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall wellbeing?
+> One of the things I did very well was refactor the client's code and implement a Secure Hash Algorithm 256 (SHA-256) for the checksum verification. Industry best practices enhance protections against data breaches, injection attacks, unauthorized access, and other malicious attacks against Artemis Financial. Vulnerabilities in the codebase can lead to financial loss for Artemis Financial or its customers. Accordingly, the code was refactored using industry standard best practices, which included secure/quality coding, encryption of data, and continuous security testing using both manual and static testing of the refactored code.
+3. What part of the vulnerability assessment was challenging or helpful to you?
+> The most challenging part of the vulnerability assessment was interpreting the dependency check report. However, over time I developed a better understanding of the report and how to fix the identified vulnerabilities. 
+4. How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
+> I increased layers of security by implementing the Secure Hash Algorithm 256 (SHA-256) for the checksum verification and creating a certificate using Eclipse. I will use manual checks as well as static testing of the code to assess vulnerabilities and determine mitigation techniques in the future.
+5. How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
+> I made certain the code was funtional and secure by completing an initial manual review, implementing SHA-256 and creating a certificate, and then checking for new vulernabilities using a dependency check.
+6. What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
+> I used the secure software development lifecycle approach as well as reviewed resources from the textbook, Iron-Clad Java: Building Secure Web Applications, for guidance. These resources will be helpful for future assignments or tasks.
+7. Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?
+> I would show future employers the Artemis Financial Vulnerability Assessment Report or the Artemis Financial Practices for Secure Software Report to demonstrate my skills, knowledge, and experience.
